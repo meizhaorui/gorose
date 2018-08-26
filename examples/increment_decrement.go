@@ -2,8 +2,8 @@ package main
 
 import (
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/gohouse/gorose/examples/config"
-	"github.com/gohouse/gorose"
+	"github.com/meizhaorui/gorose/examples/config"
+	"github.com/meizhaorui/gorose"
 	"fmt"
 )
 

@@ -3,8 +3,8 @@ package test
 import (
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/gohouse/gorose"
-	"github.com/gohouse/gorose/examples/config"
+	"github.com/meizhaorui/gorose"
+	"github.com/meizhaorui/gorose/examples/config"
 	"testing"
 )
 

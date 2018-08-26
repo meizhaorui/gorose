@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/gohouse/gorose/examples/config"
+	"github.com/meizhaorui/gorose/examples/config"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/gohouse/gorose"
+	"github.com/meizhaorui/gorose"
 )
 
 var conn = make(map[string]gorose.Connection)

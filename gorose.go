@@ -3,8 +3,8 @@ package gorose
 import (
 	"database/sql"
 	"errors"
-	"github.com/gohouse/gorose/drivers"
-	"github.com/gohouse/gorose/utils"
+	"github.com/meizhaorui/gorose/drivers"
+	"github.com/meizhaorui/gorose/utils"
 )
 
 // Connection is the database pre handle

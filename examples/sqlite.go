@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/gohouse/gorose/examples/config"
+	"github.com/meizhaorui/gorose/examples/config"
 	"fmt"
-	"github.com/gohouse/gorose"
+	"github.com/meizhaorui/gorose"
 	_ "github.com/mattn/go-sqlite3"
 )
 

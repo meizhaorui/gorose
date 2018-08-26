@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/gohouse/gorose/examples/config"
+	"github.com/meizhaorui/gorose/examples/config"
 	"fmt"
 	_ "github.com/denisenkom/go-mssqldb"
-	"github.com/gohouse/gorose"
+	"github.com/meizhaorui/gorose"
 )
 
 func main() {

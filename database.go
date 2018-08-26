@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"errors"
 	"fmt"
-	"github.com/gohouse/gorose/utils"
+	"github.com/meizhaorui/gorose/utils"
 	"strconv"
 	"strings"
 )
@@ -1058,7 +1058,7 @@ func (dba *Database) Query(args ...interface{}) ([]map[string]interface{}, error
 		}
 	}
 	// 记录sql log
-	dba.LastSql = fmt.Sprintf(sqlstring, vals...)
+	dba.LastSql = fmt.Sprintf(strings.Replace(sqlstring, "%", "%%", -1), vals...)
 	dba.SqlLogs = append(dba.SqlLogs, dba.LastSql)
 
 	stmt, err := dba.connection.DB.Prepare(sqlstring)

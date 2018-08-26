@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"encoding/json"
-	"github.com/gohouse/gorose"
+	"github.com/meizhaorui/gorose"
 	_ "github.com/go-sql-driver/mysql"
 )
 
