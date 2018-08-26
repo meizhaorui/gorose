@@ -1122,7 +1122,7 @@ func (dba *Database) Execute(args ...interface{}) (int64, error) {
 		}
 	}
 	// 记录sqlLog
-	dba.LastSql = fmt.Sprintf(sqlstring, vals...)
+	dba.LastSql = fmt.Sprintf(strings.Replace(sqlstring, "%", "%%", -1), vals...)
 	dba.SqlLogs = append(dba.SqlLogs, dba.LastSql)
 
 	var operType string = strings.ToLower(sqlstring[0:6])
